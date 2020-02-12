@@ -215,6 +215,7 @@ const ShopsPage = props => {
                   data.allDodgyShop.edges,
                   "sub_district"
                 ),
+                defaultSize: 100,
               },
               {
                 label: t("search.pharmacy"),
